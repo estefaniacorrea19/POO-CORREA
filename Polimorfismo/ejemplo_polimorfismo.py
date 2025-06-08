@@ -13,5 +13,5 @@ class Perro(Animal):  #Heredemoas de la clase animal
 # Lista de diferentes objetos
 animales = [Gato(), Perro(), Animal()]  #Creamos una lista
 
-for animal in animales:
+for animal in animales: #Realizamos con un for
     print(animal.hacer_sonido())  #Con un for recorremos la lista
